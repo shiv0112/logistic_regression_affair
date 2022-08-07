@@ -8,14 +8,14 @@
 
 
 {% block body %}
-<header><h2 style="text-align: center">Predict if an Affair is Possible or Not</h2></header>
+<header><h2 style="text-align: center">Predict if an Extramarital Affair is Possible or Not</h2></header>
 
 <form id="form" class="topBefore" action="/predict" method="POST">
   <input type="number" step="0.1" name="age" placeholder="age">
   <input type="number" step="0.1" name="yrs_married" placeholder="years married">
   <input type="number" step="0.1" name="children" placeholder="number of children">
   
-  <input list="r" name="Religious" placeholder="Religiousness">
+  <input list="r" name="religious" placeholder="Religiousness">
   <datalist id="r">
     <option value="1">Not religious at all</option>
     <option value="2">Mildly religious</option>
@@ -23,7 +23,7 @@
     <option value="4">Strongly Religious</option>
   </datalist>
 
-  <input list="m" name="Rating of Marriage" placeholder="Marriage Rating">
+  <input list="m" name="rating_of_marriage" placeholder="Marriage Rating">
   <datalist id="m">
     <option value="1">Very Poor</option>
     <option value="2">Poor</option>
@@ -32,7 +32,7 @@
     <option value="5">Very Good</option>
   </datalist>
   
-  <input list="e" name="Education" placeholder="Education"> 
+  <input list="e" name="education" placeholder="Education"> 
   <datalist id="e">
     <option value="9">Grade School</option>
     <option value="12">High School</option>

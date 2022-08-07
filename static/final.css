@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background: #607EAA;
-  color: #EAE3D2;
+  background: #D75281;
+  color: #FFF89C;
 }
 
 header {
@@ -23,19 +23,19 @@ header {
 }
 
 #customers td, #customers th {
-  border: 2.5px solid #EAE3D2;
+  border: 2.5px solid #FFF89C;
   padding: 8px;
   text-align: center;
   font-size: 1.23em;
-  background-color: #EAE3D2;
-  color: #607EAA;
+  background-color: #FFF89C;
+  color: #D75281;
 }
 
 #customers th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: #1C3879;
-  color: #EAE3D2;
+  background-color: #5d04a1;
+  color: #FFF89C;
   font-size: 1.23em;
 }
