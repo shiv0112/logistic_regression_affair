@@ -2,7 +2,7 @@
 
 Project Description 📄
 
-❄️ Built a linear regression model using statsmodel.api data fair to
+❄️ Built a logistic regression model using statsmodel.api data fair to
 predict Affair will happen or not based on other dependent variable.
 
 #### Deployed Project Link: https://affair-prediction-api.herokuapp.com/
