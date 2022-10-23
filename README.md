@@ -5,8 +5,6 @@ Project Description 📄
 ❄️ Built a logistic regression model using statsmodel.api data fair to
 predict Affair will happen or not based on other dependent variable.
 
-#### Deployed Project Link: https://affair-prediction-api.herokuapp.com/
-
 ##### Jupyter Notebook: (https://github.com/shiv0112/logistic_regression_affair/blob/master/notebooks/logistic_regression.ipynb)
 
 ## Data:
